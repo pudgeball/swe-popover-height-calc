@@ -1,0 +1,35 @@
+body {
+  width: 600px;
+  height: 450px;
+}
+
+#container {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#top-half {
+  height: calc(50% - 58px);
+  background-color: red;
+  top: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+}
+
+#bottom-half {
+  height: calc(50% + 56px);
+  background-color: blue;
+  bottom: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+}
+
+#open-as-tab {
+  position: absolute;
+  bottom: 0;
+  font-weight: bold;
+  color: white;
+}

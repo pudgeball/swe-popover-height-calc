@@ -1,0 +1,939 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEA0928A2673185700E69294 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA092892673185700E69294 /* AppDelegate.swift */; };
+		DEA0928C2673185700E69294 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA0928B2673185700E69294 /* SceneDelegate.swift */; };
+		DEA0928F2673185700E69294 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA0928D2673185700E69294 /* LaunchScreen.storyboard */; };
+		DEA092922673185700E69294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA092902673185700E69294 /* Main.storyboard */; };
+		DEA0929B2673185700E69294 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA0929A2673185700E69294 /* AppDelegate.swift */; };
+		DEA0929E2673185700E69294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA0929C2673185700E69294 /* Main.storyboard */; };
+		DEA092A62673185700E69294 /* swe-popover-height-calc Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DEA092A52673185700E69294 /* swe-popover-height-calc Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DEA092B02673185700E69294 /* swe-popover-height-calc Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DEA092AF2673185700E69294 /* swe-popover-height-calc Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DEA092B52673185700E69294 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = DEA092792673185700E69294 /* Main.html */; };
+		DEA092B62673185700E69294 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = DEA092792673185700E69294 /* Main.html */; };
+		DEA092B72673185700E69294 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA0927B2673185700E69294 /* Icon.png */; };
+		DEA092B82673185700E69294 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA0927B2673185700E69294 /* Icon.png */; };
+		DEA092B92673185700E69294 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = DEA0927C2673185700E69294 /* Style.css */; };
+		DEA092BA2673185700E69294 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = DEA0927C2673185700E69294 /* Style.css */; };
+		DEA092BB2673185700E69294 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = DEA0927D2673185700E69294 /* Script.js */; };
+		DEA092BC2673185700E69294 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = DEA0927D2673185700E69294 /* Script.js */; };
+		DEA092BD2673185700E69294 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA0927E2673185700E69294 /* ViewController.swift */; };
+		DEA092BE2673185700E69294 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA0927E2673185700E69294 /* ViewController.swift */; };
+		DEA092BF2673185700E69294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA0927F2673185700E69294 /* Assets.xcassets */; };
+		DEA092C02673185700E69294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA0927F2673185700E69294 /* Assets.xcassets */; };
+		DEA092C12673185700E69294 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA092812673185700E69294 /* SafariWebExtensionHandler.swift */; };
+		DEA092C22673185700E69294 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA092812673185700E69294 /* SafariWebExtensionHandler.swift */; };
+		DEA092DB2673185700E69294 /* browser-polyfill-min.js in Resources */ = {isa = PBXBuildFile; fileRef = DEA092D42673185700E69294 /* browser-polyfill-min.js */; };
+		DEA092DC2673185700E69294 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = DEA092D52673185700E69294 /* background.js */; };
+		DEA092DD2673185700E69294 /* images in Resources */ = {isa = PBXBuildFile; fileRef = DEA092D62673185700E69294 /* images */; };
+		DEA092DE2673185700E69294 /* popover in Resources */ = {isa = PBXBuildFile; fileRef = DEA092D72673185700E69294 /* popover */; };
+		DEA092DF2673185700E69294 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DEA092D82673185700E69294 /* manifest.json */; };
+		DEA092E02673185700E69294 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = DEA092D92673185700E69294 /* _locales */; };
+		DEA092E12673185700E69294 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = DEA092DA2673185700E69294 /* content.js */; };
+		DEA092E22673185700E69294 /* browser-polyfill-min.js in Resources */ = {isa = PBXBuildFile; fileRef = DEA092D42673185700E69294 /* browser-polyfill-min.js */; };
+		DEA092E32673185700E69294 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = DEA092D52673185700E69294 /* background.js */; };
+		DEA092E42673185700E69294 /* images in Resources */ = {isa = PBXBuildFile; fileRef = DEA092D62673185700E69294 /* images */; };
+		DEA092E52673185700E69294 /* popover in Resources */ = {isa = PBXBuildFile; fileRef = DEA092D72673185700E69294 /* popover */; };
+		DEA092E62673185700E69294 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DEA092D82673185700E69294 /* manifest.json */; };
+		DEA092E72673185700E69294 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = DEA092D92673185700E69294 /* _locales */; };
+		DEA092E82673185700E69294 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = DEA092DA2673185700E69294 /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEA092A72673185700E69294 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEA092732673185700E69294 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA092A42673185700E69294;
+			remoteInfo = "swe-popover-height-calc Extension (iOS)";
+		};
+		DEA092B12673185700E69294 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEA092732673185700E69294 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA092AE2673185700E69294;
+			remoteInfo = "swe-popover-height-calc Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DEA092C82673185700E69294 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DEA092A62673185700E69294 /* swe-popover-height-calc Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA092CF2673185700E69294 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DEA092B02673185700E69294 /* swe-popover-height-calc Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DEA0927A2673185700E69294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		DEA0927B2673185700E69294 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DEA0927C2673185700E69294 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		DEA0927D2673185700E69294 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		DEA0927E2673185700E69294 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEA0927F2673185700E69294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEA092812673185700E69294 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		DEA092862673185700E69294 /* swe-popover-height-calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swe-popover-height-calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA092892673185700E69294 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEA0928B2673185700E69294 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DEA0928E2673185700E69294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEA092912673185700E69294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEA092932673185700E69294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA092982673185700E69294 /* swe-popover-height-calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swe-popover-height-calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA0929A2673185700E69294 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEA0929D2673185700E69294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEA0929F2673185700E69294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA092A02673185700E69294 /* swe-popover-height-calc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "swe-popover-height-calc.entitlements"; sourceTree = "<group>"; };
+		DEA092A52673185700E69294 /* swe-popover-height-calc Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "swe-popover-height-calc Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA092AA2673185700E69294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA092AF2673185700E69294 /* swe-popover-height-calc Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "swe-popover-height-calc Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA092B42673185700E69294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA092D42673185700E69294 /* browser-polyfill-min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "browser-polyfill-min.js"; path = "Resources/browser-polyfill-min.js"; sourceTree = "<group>"; };
+		DEA092D52673185700E69294 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
+		DEA092D62673185700E69294 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = Resources/images; sourceTree = "<group>"; };
+		DEA092D72673185700E69294 /* popover */ = {isa = PBXFileReference; lastKnownFileType = folder; name = popover; path = Resources/popover; sourceTree = "<group>"; };
+		DEA092D82673185700E69294 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		DEA092D92673185700E69294 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = Resources/_locales; sourceTree = "<group>"; };
+		DEA092DA2673185700E69294 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = Resources/content.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEA092832673185700E69294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA092952673185700E69294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA092A22673185700E69294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA092AC2673185700E69294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEA092722673185700E69294 = {
+			isa = PBXGroup;
+			children = (
+				DEA092772673185700E69294 /* Shared (App) */,
+				DEA092802673185700E69294 /* Shared (Extension) */,
+				DEA092882673185700E69294 /* iOS (App) */,
+				DEA092992673185700E69294 /* macOS (App) */,
+				DEA092A92673185700E69294 /* iOS (Extension) */,
+				DEA092B32673185700E69294 /* macOS (Extension) */,
+				DEA092872673185700E69294 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEA092772673185700E69294 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				DEA0927E2673185700E69294 /* ViewController.swift */,
+				DEA0927F2673185700E69294 /* Assets.xcassets */,
+				DEA092782673185700E69294 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		DEA092782673185700E69294 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DEA092792673185700E69294 /* Main.html */,
+				DEA0927B2673185700E69294 /* Icon.png */,
+				DEA0927C2673185700E69294 /* Style.css */,
+				DEA0927D2673185700E69294 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DEA092802673185700E69294 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				DEA092D32673185700E69294 /* Resources */,
+				DEA092812673185700E69294 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		DEA092872673185700E69294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEA092862673185700E69294 /* swe-popover-height-calc.app */,
+				DEA092982673185700E69294 /* swe-popover-height-calc.app */,
+				DEA092A52673185700E69294 /* swe-popover-height-calc Extension.appex */,
+				DEA092AF2673185700E69294 /* swe-popover-height-calc Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEA092882673185700E69294 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				DEA092892673185700E69294 /* AppDelegate.swift */,
+				DEA0928B2673185700E69294 /* SceneDelegate.swift */,
+				DEA0928D2673185700E69294 /* LaunchScreen.storyboard */,
+				DEA092902673185700E69294 /* Main.storyboard */,
+				DEA092932673185700E69294 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		DEA092992673185700E69294 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				DEA0929A2673185700E69294 /* AppDelegate.swift */,
+				DEA0929C2673185700E69294 /* Main.storyboard */,
+				DEA0929F2673185700E69294 /* Info.plist */,
+				DEA092A02673185700E69294 /* swe-popover-height-calc.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		DEA092A92673185700E69294 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				DEA092AA2673185700E69294 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		DEA092B32673185700E69294 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				DEA092B42673185700E69294 /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		DEA092D32673185700E69294 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DEA092D42673185700E69294 /* browser-polyfill-min.js */,
+				DEA092D52673185700E69294 /* background.js */,
+				DEA092D62673185700E69294 /* images */,
+				DEA092D72673185700E69294 /* popover */,
+				DEA092D82673185700E69294 /* manifest.json */,
+				DEA092D92673185700E69294 /* _locales */,
+				DEA092DA2673185700E69294 /* content.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEA092852673185700E69294 /* swe-popover-height-calc (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA092C92673185700E69294 /* Build configuration list for PBXNativeTarget "swe-popover-height-calc (iOS)" */;
+			buildPhases = (
+				DEA092822673185700E69294 /* Sources */,
+				DEA092832673185700E69294 /* Frameworks */,
+				DEA092842673185700E69294 /* Resources */,
+				DEA092C82673185700E69294 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEA092A82673185700E69294 /* PBXTargetDependency */,
+			);
+			name = "swe-popover-height-calc (iOS)";
+			productName = "swe-popover-height-calc (iOS)";
+			productReference = DEA092862673185700E69294 /* swe-popover-height-calc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEA092972673185700E69294 /* swe-popover-height-calc (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA092D02673185700E69294 /* Build configuration list for PBXNativeTarget "swe-popover-height-calc (macOS)" */;
+			buildPhases = (
+				DEA092942673185700E69294 /* Sources */,
+				DEA092952673185700E69294 /* Frameworks */,
+				DEA092962673185700E69294 /* Resources */,
+				DEA092CF2673185700E69294 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEA092B22673185700E69294 /* PBXTargetDependency */,
+			);
+			name = "swe-popover-height-calc (macOS)";
+			productName = "swe-popover-height-calc (macOS)";
+			productReference = DEA092982673185700E69294 /* swe-popover-height-calc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEA092A42673185700E69294 /* swe-popover-height-calc Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA092C52673185700E69294 /* Build configuration list for PBXNativeTarget "swe-popover-height-calc Extension (iOS)" */;
+			buildPhases = (
+				DEA092A12673185700E69294 /* Sources */,
+				DEA092A22673185700E69294 /* Frameworks */,
+				DEA092A32673185700E69294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swe-popover-height-calc Extension (iOS)";
+			productName = "swe-popover-height-calc Extension (iOS)";
+			productReference = DEA092A52673185700E69294 /* swe-popover-height-calc Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DEA092AE2673185700E69294 /* swe-popover-height-calc Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA092CC2673185700E69294 /* Build configuration list for PBXNativeTarget "swe-popover-height-calc Extension (macOS)" */;
+			buildPhases = (
+				DEA092AB2673185700E69294 /* Sources */,
+				DEA092AC2673185700E69294 /* Frameworks */,
+				DEA092AD2673185700E69294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swe-popover-height-calc Extension (macOS)";
+			productName = "swe-popover-height-calc Extension (macOS)";
+			productReference = DEA092AF2673185700E69294 /* swe-popover-height-calc Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEA092732673185700E69294 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					DEA092852673185700E69294 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DEA092972673185700E69294 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DEA092A42673185700E69294 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DEA092AE2673185700E69294 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = DEA092762673185700E69294 /* Build configuration list for PBXProject "swe-popover-height-calc" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEA092722673185700E69294;
+			productRefGroup = DEA092872673185700E69294 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEA092852673185700E69294 /* swe-popover-height-calc (iOS) */,
+				DEA092972673185700E69294 /* swe-popover-height-calc (macOS) */,
+				DEA092A42673185700E69294 /* swe-popover-height-calc Extension (iOS) */,
+				DEA092AE2673185700E69294 /* swe-popover-height-calc Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEA092842673185700E69294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA092B72673185700E69294 /* Icon.png in Resources */,
+				DEA0928F2673185700E69294 /* LaunchScreen.storyboard in Resources */,
+				DEA092B52673185700E69294 /* Main.html in Resources */,
+				DEA092BB2673185700E69294 /* Script.js in Resources */,
+				DEA092BF2673185700E69294 /* Assets.xcassets in Resources */,
+				DEA092922673185700E69294 /* Main.storyboard in Resources */,
+				DEA092B92673185700E69294 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA092962673185700E69294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA092B82673185700E69294 /* Icon.png in Resources */,
+				DEA092BA2673185700E69294 /* Style.css in Resources */,
+				DEA0929E2673185700E69294 /* Main.storyboard in Resources */,
+				DEA092BC2673185700E69294 /* Script.js in Resources */,
+				DEA092C02673185700E69294 /* Assets.xcassets in Resources */,
+				DEA092B62673185700E69294 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA092A32673185700E69294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA092E72673185700E69294 /* _locales in Resources */,
+				DEA092E42673185700E69294 /* images in Resources */,
+				DEA092E32673185700E69294 /* background.js in Resources */,
+				DEA092E62673185700E69294 /* manifest.json in Resources */,
+				DEA092E52673185700E69294 /* popover in Resources */,
+				DEA092E82673185700E69294 /* content.js in Resources */,
+				DEA092E22673185700E69294 /* browser-polyfill-min.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA092AD2673185700E69294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA092E02673185700E69294 /* _locales in Resources */,
+				DEA092DD2673185700E69294 /* images in Resources */,
+				DEA092DC2673185700E69294 /* background.js in Resources */,
+				DEA092DF2673185700E69294 /* manifest.json in Resources */,
+				DEA092DE2673185700E69294 /* popover in Resources */,
+				DEA092E12673185700E69294 /* content.js in Resources */,
+				DEA092DB2673185700E69294 /* browser-polyfill-min.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEA092822673185700E69294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA092BD2673185700E69294 /* ViewController.swift in Sources */,
+				DEA0928A2673185700E69294 /* AppDelegate.swift in Sources */,
+				DEA0928C2673185700E69294 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA092942673185700E69294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA092BE2673185700E69294 /* ViewController.swift in Sources */,
+				DEA0929B2673185700E69294 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA092A12673185700E69294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA092C12673185700E69294 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA092AB2673185700E69294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA092C22673185700E69294 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEA092A82673185700E69294 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA092A42673185700E69294 /* swe-popover-height-calc Extension (iOS) */;
+			targetProxy = DEA092A72673185700E69294 /* PBXContainerItemProxy */;
+		};
+		DEA092B22673185700E69294 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA092AE2673185700E69294 /* swe-popover-height-calc Extension (macOS) */;
+			targetProxy = DEA092B12673185700E69294 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEA092792673185700E69294 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA0927A2673185700E69294 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		DEA0928D2673185700E69294 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA0928E2673185700E69294 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DEA092902673185700E69294 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA092912673185700E69294 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEA0929C2673185700E69294 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA0929D2673185700E69294 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEA092C32673185700E69294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEA092C42673185700E69294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DEA092C62673185700E69294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-popover-height-calc Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-popover-height-calc.Extension";
+				PRODUCT_NAME = "swe-popover-height-calc Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEA092C72673185700E69294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-popover-height-calc Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-popover-height-calc.Extension";
+				PRODUCT_NAME = "swe-popover-height-calc Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEA092CA2673185700E69294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-popover-height-calc";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-popover-height-calc";
+				PRODUCT_NAME = "swe-popover-height-calc";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEA092CB2673185700E69294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-popover-height-calc";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-popover-height-calc";
+				PRODUCT_NAME = "swe-popover-height-calc";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEA092CD2673185700E69294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-popover-height-calc Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-popover-height-calc.Extension";
+				PRODUCT_NAME = "swe-popover-height-calc Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DEA092CE2673185700E69294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-popover-height-calc Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-popover-height-calc.Extension";
+				PRODUCT_NAME = "swe-popover-height-calc Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DEA092D12673185700E69294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/swe-popover-height-calc.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-popover-height-calc";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-popover-height-calc";
+				PRODUCT_NAME = "swe-popover-height-calc";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DEA092D22673185700E69294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/swe-popover-height-calc.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-popover-height-calc";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-popover-height-calc";
+				PRODUCT_NAME = "swe-popover-height-calc";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEA092762673185700E69294 /* Build configuration list for PBXProject "swe-popover-height-calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA092C32673185700E69294 /* Debug */,
+				DEA092C42673185700E69294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA092C52673185700E69294 /* Build configuration list for PBXNativeTarget "swe-popover-height-calc Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA092C62673185700E69294 /* Debug */,
+				DEA092C72673185700E69294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA092C92673185700E69294 /* Build configuration list for PBXNativeTarget "swe-popover-height-calc (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA092CA2673185700E69294 /* Debug */,
+				DEA092CB2673185700E69294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA092CC2673185700E69294 /* Build configuration list for PBXNativeTarget "swe-popover-height-calc Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA092CD2673185700E69294 /* Debug */,
+				DEA092CE2673185700E69294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA092D02673185700E69294 /* Build configuration list for PBXNativeTarget "swe-popover-height-calc (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA092D12673185700E69294 /* Debug */,
+				DEA092D22673185700E69294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEA092732673185700E69294 /* Project object */;
+}

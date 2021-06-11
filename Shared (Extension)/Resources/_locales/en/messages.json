@@ -1,0 +1,10 @@
+{
+  "extension_name": {
+    "message": "swe-popover-height-calc",
+    "description": "The display name for the extension."
+  },
+  "extension_description": {
+    "message": "This is swe-popover-height-calc. You should tell us what your extension does here.",
+    "description": "Description of what the extension does."
+  }
+}
